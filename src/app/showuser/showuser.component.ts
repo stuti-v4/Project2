@@ -24,7 +24,7 @@ export class ShowuserComponent implements OnInit
           id: e.payload.doc.id,
           isedit: false,
           name: e.payload.doc.data()['name'],
-          phone: e.payload.doc.data()['age'],
+          phone: e.payload.doc.data()['phone'],
           address: e.payload.doc.data()['address'],
           email:e.payload.doc.data()['email']
         };
