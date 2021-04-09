@@ -1,0 +1,46 @@
+<br>
+<div class="container">
+      <div class="row cmCss">
+        <label for="country"> <strong>Country</strong></label>
+        <div>
+          <select class="options" id="country" (click)="getCountry($event)">
+            <option *ngFor="let country of countries" [value]="country.Slug" >
+              {{country.Country}}
+            </option >
+          </select>
+        </div>
+      <div class="line">
+    <ul>
+      <div class="new">
+        <span class="dot1"></span>
+       <li> {{totalData.TotalConfirmed}}</li>
+       <span class="dot2"></span>
+       <li> {{totalData.TotalDeaths}}</li>
+       <span class="dot3"></span>
+       <li> {{totalData.TotalRecovered}}</li>
+      </div>
+    </ul>
+</div>
+      </div>
+</div> 
+
+<table class="table table-bordered custom-table">
+  <thead>
+    <tr class="table-dark">
+      <th scope="col">Date</th>
+      <th scope="col">Total Cases</th>
+      <th scope="col">Active</th>
+      <th scope="col">Recovered</th>
+      <th scope="col">Deaths</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr *ngFor="let cases of countryData;">
+        <td>{{cases.Date | date:'dd/MM/yyyy'}}</td>
+        <td>{{cases.Confirmed}}</td>
+        <td>{{cases.Active}}</td>
+        <td>{{cases.Recovered}}</td>
+        <td>{{cases.Deaths}}</td>
+      </tr>
+  </tbody>
+</table>

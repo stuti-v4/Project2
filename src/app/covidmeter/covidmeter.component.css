@@ -1,0 +1,59 @@
+.container
+{
+  margin-top: 20px;
+}
+.options
+{
+  margin-left: 30px;
+  width: 80%;
+}
+ul{
+  list-style: none;
+}
+ul .new
+{
+  display: inline-flex;
+  margin-left: 10px;
+}
+ul .new li
+{
+  padding-bottom: 10px;
+  vertical-align: centre;
+  margin-right: 40px;
+}
+.dot1 {
+  height: 23px;
+  width: 23px;
+  margin-right: 10px;
+  background-color:rgba(89, 89, 238, 0.979);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 23px;
+  width: 23px;
+   margin-right: 10px;
+  background-color: rgb(55, 238, 55);
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 23px;
+  width: 23px;
+   margin-right: 10px;
+  background-color: rgb(245, 39, 39);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.custom-table{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.table-dark
+{
+  color: black;
+}

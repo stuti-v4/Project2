@@ -1,0 +1,34 @@
+.form
+{
+  margin-left: 30%;
+}
+.form-control
+{
+  width: min-content;
+}
+
+.Use
+{
+  font-size: 25px;
+  margin: 10px;
+}
+
+.btn-primary1
+{
+  background-color:#383838 ;
+}
+
+.btn-primary2
+{
+  background-color:#9e6df7 ;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: black;
+  background-color: #9e6df7;
+}
+.error-block
+{
+  color: red;
+  font-size: 12px;
+
+}
